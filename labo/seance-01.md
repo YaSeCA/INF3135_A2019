@@ -255,8 +255,8 @@ $
 - Finalement, taper les commandes :
 
     ```shell
-    $ git pull origin master
     $ git push origin master
+    $ git pull origin master
     $ git status
     $ git config --global credential.helper 'cache --timeout 3600'
     ```
