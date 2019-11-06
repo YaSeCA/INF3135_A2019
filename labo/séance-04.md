@@ -2,8 +2,7 @@
 
 **Note** : (_facultatif_) S'il y a des questions dans ce labo, répondez y dans un fichier nommé
 `./labo/reponse-labo.md`.  Le fichier doit être dans un format `Markdown`. Utilisez le projet
-`inf3135-a2019` pour déposer le fichier `./labo/reponse-labo.md` soit le même que pour vos exercices.
-Utilisez un autre `projet` pour vos travaux pratiques.
+`inf3135-a2019` pour déposer le fichier demandé. Utiliser le même fichier pour tous les exercices.
 
 ##### Format du fichier Markdown
  + Séance 2 (Header 1)
@@ -16,8 +15,24 @@ Utilisez un autre `projet` pour vos travaux pratiques.
 de Git. Un seul dépôt est amplement suffisant pour tous les laboratoires, en
 divisant les fichiers dans des répertoires.
 
-*Conseil* : Vous devriez versionner vos exercices avec Git, afin de
-vous entraîner à utiliser le logiciel naturellement.
+ > > Pourquoi versionner vos exercices avec Git: afin de
+vous entraîner à utiliser le logiciel (commandes) naturellement.
+
+## 0 - Makefile
+
+Pour tous les exercices qui suivent, vous devez ajouter au fichier `Makefile` ce qui est nécessaire pour automatiser
+la production de vos exécutables (et/ou objets).  De plus, il est souhaitable de produire une cible de test pour chacun.
+
+Si vous cherchez des noms pour vos `exécutables` et `cibles` labo_05_1, labo_05_2, ... etc. Il s'agit, 
+de mot labo suivi du numéro de la séance, et, terminant par le numéro de l'exercice.
+
+Il est fort possible que je visite votre dépôt pour vérifier vos avancements.
+
+À ceci, vous allez ajouter deux cibles :
++ all_labo_test :
++ all_labo_build :
+
+Vous avez aussi compris que `all_labo_test` est dépendant de `all_labo_build`.
 
 ## 1 - Arguments de la fonction main
 
@@ -113,5 +128,5 @@ de votre enseignant.
 ### FIN.
 ---
 
-##### Auteur Guy Francoeur
-###### basé sur les travaux d'Alexandre Blondin Massé, Professeur
+##### Auteur Guy Francoeur, version A2019
+###### basé sur le matériel d'Alexandre Blondin Massé, Professeur
